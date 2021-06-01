@@ -42,10 +42,10 @@ int main(void) {
 float mc_pi(int n){
    int f=0;int s=n;
   while(n){
-     float x=frandom();
+  float x=frandom();
   float y=frandom();
   float d=(x*x)+(y*y);
-  if(d<1)
+  if(d<=1)
      f++;
     n--;
   }
