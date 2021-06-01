@@ -49,4 +49,4 @@ float mc_pi(int n){
      f++;
     n--;
   }
-  return (f/s);}
+  return (float)(f/s);}
