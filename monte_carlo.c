@@ -47,5 +47,6 @@ float mc_pi(int n){
   float d=(x*x)+(y*y);
   if(d<1)
      f++;
+    n--;
   }
   return (f/n);}
