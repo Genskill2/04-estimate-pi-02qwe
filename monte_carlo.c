@@ -44,7 +44,7 @@ float mc_pi(int n){
   while(n){
      float x=frandom();
   float y=frandom();
-  float d=pow((x*x)+(y*y),0.5);
+  float d=(x*x)+(y*y);
   if(d<1)
      f++;
   }
