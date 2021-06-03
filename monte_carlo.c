@@ -40,7 +40,7 @@ int main(void) {
 }
 
 float mc_pi(int n){
-   int f=0;int s=n;
+   float f=0;float s=n;
   while(n){
   float x=frandom();
   float y=frandom();
@@ -49,4 +49,4 @@ float mc_pi(int n){
      f++;
     n--;
   }
-  return (float)((4*f)/s);}
+  return (float)((4.00*f)/s);}
